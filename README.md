@@ -6,8 +6,7 @@ Project to predict the medical costs (in charges) to be covered by a health Insu
 # Objective 
 To build a machine learning model to predict the charges to be paid (as charges) by an insurance company, as a health Insurance cover.
 
-### Evaluation Metric: 
-RSq
+### Evaluation Metric: RSq
 
 The solution contains seven linear models. It is found that beneficiaries who are smokers incur a lot of medical bill for the insurance company.
 For smokers, the BMI is strongly related (positively) to the amount of charges. As the BMI increases, the medical costs increases too.
