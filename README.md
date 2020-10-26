@@ -11,7 +11,7 @@ To build a machine learning model to predict the charges to be paid (as charges)
 The solution contains seven linear models. It is found that beneficiaries who are smokers incur a lot of medical bill for the insurance company.
 For smokers, the BMI is strongly related (positively) to the amount of charges. As the BMI increases, the medical costs increases too.
 
-## Polynomial and Feature Interactiins
+## Polynomial features and Feature Interactions
 Using the raw features wasn't enough to predict the amount of charges. As a result interactions between the age and smoker = 'Y' and BMI and smoker = 'Y'. 
 As a baseline, the RSq. stands at about 75% (for test set) for all seven models. 
 Feature interaction improved the RSq. (amount of variance explained by the model) to between 79-80% 
